@@ -1,0 +1,21 @@
+.gameContainer {
+  border: none;
+  border-radius: 6px;
+  padding: 2rem;
+  background: linear-gradient(
+    45deg,
+    rgba(73, 12, 209, 0.5116421568627452) 15%,
+    rgba(92, 14, 222, 1) 49%,
+    rgba(4, 27, 245, 1) 100%
+  );
+}
+
+.players {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  text-align: center;
+  margin: 0 0 1rem 0;
+  justify-content: center;
+  align-items: center;
+}

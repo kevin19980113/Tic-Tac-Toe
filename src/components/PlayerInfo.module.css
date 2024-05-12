@@ -1,0 +1,48 @@
+.player {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  gap: 0.5rem;
+  width: 50%;
+  border: 2px solid transparent;
+  border-radius: 5px;
+}
+
+.active {
+  border: 2px solid white;
+}
+
+.player button {
+  background: none;
+  border: none;
+  width: 2rem;
+  font-size: 0.9rem;
+  padding: 0.25rem;
+  cursor: pointer;
+  text-align: center;
+}
+
+.player button:hover {
+  color: white;
+}
+
+.player input {
+  background-color: rgb(32, 21, 188);
+}
+
+.playerName {
+  display: inline-block;
+  width: 9rem;
+  font-size: 1rem;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0.5rem;
+  border-radius: 6px;
+  text-align: center;
+  border: none;
+}
+
+.playerSymbol {
+  margin: 0 1rem;
+}

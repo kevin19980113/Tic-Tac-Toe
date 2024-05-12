@@ -1,0 +1,24 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.1rem;
+  margin: 1rem;
+  text-shadow: 4px 4px 10px #7f84db;
+  text-align: center;
+}
+
+.header img {
+  width: 70px;
+  height: 70px;
+  object-fit: contain;
+  filter: drop-shadow(0 0 16px rgba(0, 0, 0, 0.4));
+  rotate: -15deg;
+}
+
+.header h1 {
+  font-size: 2rem;
+}
+.header h3 {
+  font-size: 1rem;
+}

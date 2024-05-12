@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  height: 100vh;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Arial Rounded MT Bold";
+  background-image: linear-gradient(
+    to right top,
+    #9f9bee,
+    #908ee3,
+    #8080d8,
+    #7074ce,
+    #6067c3,
+    #545bb3,
+    #474fa4,
+    #3b4495,
+    #30367e,
+    #252967,
+    #191c52,
+    #0e103d
+  );
+}
